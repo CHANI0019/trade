@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LS_AutoBot: 차세대 AI 주식 자동매매 시스템</title>
     <meta name="description" content="LS증권 Open API 기반 64비트 고성능 AI 자동매매 에코시스템. AI와 금융 공학의 결합으로 탄생한 지능형 트레이딩 솔루션.">
-    
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Inter:wght@400;600&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <!-- Hero Section -->
@@ -23,8 +26,11 @@
             <h1>LS AutoBot</h1>
             <p>LS증권 Open API 기반 64비트 고성능 자동매매 에코시스템. 단순한 매매를 넘어 AI와 금융 공학이 결합된 지능형 솔루션입니다.</p>
             <div class="hero-actions">
-                <a href="https://ls-frontend-744369109683.asia-northeast1.run.app/login" class="btn btn-primary">START</a>
-                <a href="#architecture" class="btn btn-outline" style="margin-left: 1rem; border: 1px solid var(--accent-blue); color: var(--accent-blue); background: transparent;">시스템 탐색하기</a>
+                <a href="https://ls-frontend-744369109683.asia-northeast1.run.app/login"
+                    class="btn btn-primary">START</a>
+                <a href="#architecture" class="btn btn-outline"
+                    style="margin-left: 1rem; border: 1px solid var(--accent-blue); color: var(--accent-blue); background: transparent;">시스템
+                    탐색하기</a>
             </div>
         </div>
     </header>
@@ -69,13 +75,16 @@
             <div class="card glass-panel">
                 <h3>Hybrid Trading Model</h3>
                 <p><span class="highlight-text">가격 시계열 (LSTM)</span>: 과거 20일간의 데이터를 분석하여 미래 가격 확률 분포를 예측합니다.</p>
-                <p style="margin-top: 1rem;"><span class="highlight-text">뉴스 감성 (Transformer)</span>: BERT/RoBERTa 임베딩을 통해 시장 심리를 정량화합니다.</p>
-                <p style="margin-top: 1rem;"><span class="highlight-text">기본적 지표 (MLP)</span>: ROE, PBR, RIM 지수를 고차원 특징 벡터로 변환합니다.</p>
+                <p style="margin-top: 1rem;"><span class="highlight-text">뉴스 감성 (Transformer)</span>: BERT/RoBERTa 임베딩을
+                    통해 시장 심리를 정량화합니다.</p>
+                <p style="margin-top: 1rem;"><span class="highlight-text">기본적 지표 (MLP)</span>: ROE, PBR, RIM 지수를 고차원 특징
+                    벡터로 변환합니다.</p>
             </div>
             <div class="card glass-panel">
                 <h3>Project Leviathan</h3>
                 <p><span class="highlight-text">추세 강화 분석</span>: 현재 시장의 '주도 테마' 및 '상승 관성' 종목을 실시간 스코어링합니다.</p>
-                <p style="margin-top: 1rem;"><span class="highlight-text">국면 분할 (Regime Detection)</span>: 하락, 초기 상승, 과열 상태를 자동 분류하여 진입 시점을 결정합니다.</p>
+                <p style="margin-top: 1rem;"><span class="highlight-text">국면 분할 (Regime Detection)</span>: 하락, 초기 상승, 과열
+                    상태를 자동 분류하여 진입 시점을 결정합니다.</p>
             </div>
         </div>
     </section>
@@ -91,14 +100,16 @@
                 <div class="content-block">
                     <h3>Residual Income Model</h3>
                     <p>FnGuide 데이터를 기반으로 기업의 초과 이익을 실시간으로 산출합니다.</p>
-                    <div style="background: rgba(255,255,255,0.05); padding: 1.5rem; border-radius: 10px; margin-top: 1.5rem; border-left: 4px solid var(--accent-blue);">
+                    <div
+                        style="background: rgba(255,255,255,0.05); padding: 1.5rem; border-radius: 10px; margin-top: 1.5rem; border-left: 4px solid var(--accent-blue);">
                         <code>Value = Equity + (Equity * (ROE - Ke) / Ke)</code>
                     </div>
                 </div>
                 <div class="grid grid-cols-1 gap-1">
                     <div class="card glass-panel">
                         <h3>지능형 스캐닝</h3>
-                        <p>내재가치 대비 <span class="highlight-text">80% 이하(안전 마진)</span>인 종목을 우선 선정하며, 연속 흑자 기업 필터링으로 리스크를 차단합니다.</p>
+                        <p>내재가치 대비 <span class="highlight-text">80% 이하(안전 마진)</span>인 종목을 우선 선정하며, 연속 흑자 기업 필터링으로 리스크를
+                            차단합니다.</p>
                     </div>
                 </div>
             </div>
@@ -177,9 +188,10 @@
                 <p>수집부터 종료까지 무인화</p>
             </div>
         </div>
-        <p style="color: var(--text-secondary);">&copy; 2026 LS_AutoBot. All rights reserved.</p>
+        <p style="color: var(--text-secondary);">&copy; 2026 DANARI. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
 </body>
+
 </html>
